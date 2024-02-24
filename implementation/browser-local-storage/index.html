@@ -4,23 +4,27 @@
 <span class=c1>// 注意 异步函数获取本地存储</span>
 <span class=k>async</span><span class=w> </span><span class=kd>function</span><span class=w> </span><span class=nx>getLocalValue</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span><span class=w> </span><span class=p>{</span>
 <span class=w>  </span><span class=k>return</span><span class=w> </span><span class=k>await</span><span class=w> </span><span class=nx>localforage</span><span class=p>.</span><span class=nx>getItem</span><span class=p>(</span><span class=nx>key</span><span class=p>);</span>
-<span class=p>};</span>
+<span class=p>}</span>
 
 <span class=kd>function</span><span class=w> </span><span class=nx>setLocalValue</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span><span class=w> </span><span class=nx>value</span><span class=p>)</span><span class=w> </span><span class=p>{</span>
 <span class=w>  </span><span class=nx>localforage</span><span class=p>.</span><span class=nx>setItem</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span><span class=w> </span><span class=nx>value</span><span class=p>);</span>
-<span class=p>};</span>
+<span class=p>}</span>
 
 <span class=k>export</span><span class=w> </span><span class=kd>const</span><span class=w> </span><span class=nx>NOVEL_READER_STYLE_SAVE_KEY</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s2>&quot;novel-reader-style&quot;</span><span class=p>;</span>
 <span class=k>export</span><span class=w> </span><span class=kd>const</span><span class=w> </span><span class=nx>LOCAL_NOVELS_SAVE_KEY</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s2>&quot;local-novels&quot;</span><span class=p>;</span>
-<span class=k>export</span><span class=w> </span><span class=kd>const</span><span class=w> </span><span class=nx>FOLDER_TREE_SAVE_KEY</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s1>&#39;folder-tree&#39;</span><span class=p>;</span>
+<span class=k>export</span><span class=w> </span><span class=kd>const</span><span class=w> </span><span class=nx>FOLDER_TREE_SAVE_KEY</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s2>&quot;folder-tree&quot;</span><span class=p>;</span>
 
 <span class=k>export</span><span class=w> </span><span class=p>{</span><span class=w> </span><span class=nx>getLocalValue</span><span class=p>,</span><span class=w> </span><span class=nx>setLocalValue</span><span class=w> </span><span class=p>};</span>
 </code></pre></div> <p>其中不同存储字段的 key 和对应的 value 含义如下</p> <table> <thead> <tr> <th>key</th> <th>中文含义</th> <th>value</th> </tr> </thead> <tbody> <tr> <td>NOVEL_READER_STYLE_SAVE_KEY</td> <td>用户设置的页面的样式配置</td> <td>'{"opacity":0.8,"width":"20px"}'</td> </tr> <tr> <td>LOCAL_NOVELS_SAVE_KEY</td> <td>离线模式下小说的存储</td> <td>todo</td> </tr> <tr> <td>FOLDER_TREE_SAVE_KEY</td> <td>用户设置的目录结构</td> <td>todo</td> </tr> </tbody> </table> <h3 id=_6>接口设计与实现<a class=headerlink href=#_6 title="Permanent link">&para;</a></h3> <p>系统存储模块，对外暴露两个存储函数 getLocalValue, setLocalValue，以及存储字段 keys。</p> <p>系统功能界面，调用存储函数设置或获取本地存储。</p> <div class=highlight><pre><span></span><code><span class=c1>// App.js</span>
-<span class=k>import</span><span class=w> </span><span class=p>{</span><span class=w> </span><span class=nx>getLocalValue</span><span class=p>,</span><span class=w> </span><span class=nx>setLocalValue</span><span class=p>,</span><span class=w> </span><span class=nx>NOVEL_READER_STYLE_SAVE_KEY</span><span class=w> </span><span class=p>}</span><span class=w> </span><span class=kr>from</span><span class=w> </span><span class=s1>&#39;./utils/store&#39;</span><span class=p>;</span>
+<span class=k>import</span><span class=w> </span><span class=p>{</span>
+<span class=w>  </span><span class=nx>getLocalValue</span><span class=p>,</span>
+<span class=w>  </span><span class=nx>setLocalValue</span><span class=p>,</span>
+<span class=w>  </span><span class=nx>NOVEL_READER_STYLE_SAVE_KEY</span><span class=p>,</span>
+<span class=p>}</span><span class=w> </span><span class=kr>from</span><span class=w> </span><span class=s2>&quot;./utils/store&quot;</span><span class=p>;</span>
 
 <span class=c1>// 1、界面初始化，从本地存储获取配置；如果没有配置，使用默认配置；</span>
 <span class=nx>initDataFromLocalStore</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=p>()</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=p>{</span>
-<span class=w>  </span><span class=nx>getLocalValue</span><span class=p>(</span><span class=nx>NOVEL_READER_STYLE_SAVE_KEY</span><span class=p>).</span><span class=nx>then</span><span class=p>(</span><span class=nx>localStyleStr</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=p>{</span>
+<span class=w>  </span><span class=nx>getLocalValue</span><span class=p>(</span><span class=nx>NOVEL_READER_STYLE_SAVE_KEY</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>localStyleStr</span><span class=p>)</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=p>{</span>
 <span class=w>    </span><span class=k>if</span><span class=w> </span><span class=p>(</span><span class=nx>localStyleStr</span><span class=p>)</span><span class=w> </span><span class=p>{</span>
 <span class=w>      </span><span class=k>this</span><span class=p>.</span><span class=nx>setState</span><span class=p>({</span>
 <span class=w>        </span><span class=nx>style</span><span class=o>:</span><span class=w> </span><span class=nb>JSON</span><span class=p>.</span><span class=nx>parse</span><span class=p>(</span><span class=nx>localStyleStr</span><span class=p>)</span><span class=w> </span><span class=o>||</span><span class=w> </span><span class=nx>DEFAULT_STYLE</span><span class=p>,</span>
