@@ -2,182 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Novel-Reader.github.io/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/article-data-structure/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/browser-local-storage/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/page-style-data-type/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/user-permission/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3-%E4%B8%AD%E8%8B%B1%E6%96%87%E7%BF%BB%E8%AF%91/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/implementation/%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3-%E8%83%8C%E6%99%AF%E6%B0%B4%E5%8D%B0/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/00-introduction/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/1.0-feature/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.0-env/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.1-frontend/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.2-backend/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.3-db/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.4-test/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/2.5-structure/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/3.1-api/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/3.2-change/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/3.3-future/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/4.0-conclusion/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/latest/9.0-docs/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/template/different/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/template/implementation/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/template/produce/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Novel-Reader.github.io/template/technology/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/00-introduction/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/1.0-future/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.0-env/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.1-frontend/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.2-backend/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.3-db/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.4-test/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/2.5-structure/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/3.1-issues/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/3.2-change/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/3.3-api/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Novel-Reader.github.io/v1/9.0-docs/</loc>
-         <lastmod>2024-02-24</lastmod>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/00-introduction/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/1.0-feature/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.0-env/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.1-structure/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.10-i18n/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.11-data-storage/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.12-browser-local-storage/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.13-user-permission/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.14-more/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.2-frontend/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.3-backend/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.4-test/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.5-db/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.6-batch-upload-file/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.7-state-management/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.8-high-frequency-words/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/2.9-background-watermark/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/3.1-api/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/3.2-change/</loc>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Novel-Reader.github.io/v2/4.0-conclusion/</loc>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
